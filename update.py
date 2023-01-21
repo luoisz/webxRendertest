@@ -37,8 +37,7 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except:
-    UPSTREAM_REPO = "https://github.com/khainee/render-mltb"
-    # UPSTREAM_REPO = "https://github.com/luoisz/kzWzmlRenderWork"
+    UPSTREAM_REPO = "https://github.com/luoisz/kzWzmlRenderWork"
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
